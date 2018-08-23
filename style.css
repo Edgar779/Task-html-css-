@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.akvaprint {
+    width: 100%;
+    height: 45rem;
+    background-repeat: no-repeat;
+    background-image: url("img/back11.jpg");
+}
+.information {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    margin-top: 30px;
+}
+.information ul {
+    margin-left: 100px;
+}
+.information ul li{
+    list-style: none;
+}
+.information ul li a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.call_info{
+    float: left;
+    margin-left: 100px;
+}
+.aqua-print-logo{
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+    z-index: 1;
+    background-position: center;
+    background-image: url("img/aqua-print.png");
+    background-size: 350px 250px;
+}
+.aqua-print {
+    border: 1px solid white;
+    width: 50%;
+    height: 200px;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: 310px;
+    margin-left: 280px;
+    position: absolute;
+    display: flex;
+justify-content: center;
+    align-items: center;
+}
+.aqua-print-content{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    width: 100%;
+
+}
+.content-text{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.technology{
+    width: 96%;
+    margin-top: 50px;
+}
+.image{
+    width: 45%;
+    height: 500px;
+    float: left;
+    background-image: url("img/Untitled-99.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.technology-content{
+    width: 53%;
+    padding: 10px;
+    margin-top: 18px;
+    float: left;
+}
+.aquaprint{
+    width: 100%;
+    margin-top: 600px;
+    background-color: black;
+}
+.aquaprint-text{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.context{
+    width: 100%;
+    height: 400px;
+}
+.img{
+    width: 200px;
+    height: 400px;
+    float: left;
+    margin-left: 100px;
+}
+.img img{
+    width: 100%;
+    border: 3px solid yellow;
+    height: 200px;
+
+    border-radius: 50%;
+}
+.img h3{
+    color: yellow;
+    text-align: center;
+
+}
+.img span{
+    color: white;
+    font-family: Ubuntu;
+}
+.help{
+    width: 100%;
+    height: 250px;
+}
+.help h3{
+    margin-top: 80px;
+    text-align: center;
+}
+.help p{
+    text-align: center;
+}
+.help-input{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+.help input{
+    width: 200px;
+    height: 28px;
+    border-radius: 5px;
+    margin-left: 100px;
+    border: 2px solid gray;
+    margin-top: 20px;
+}
+.help input[type='button']{
+    color: white;
+    height: 30px;
+    background-color: #ff2424;
+}
+.our-job{
+    width: 100%;
+    height: 550px;
+    margin-top: -100px;
+    background-color: #222222;
+}
+.our-job-text{
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    border: 1px solid #222222;
+}
+.our-job-text h3{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.our-job-img{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+}
+.job-content{
+width: 25%;
+    height: 300px;
+    float: left;
+    margin-left: 80px;
+    border: 1px solid #ff2424;
+}
+.job-img{
+    height: 150px;
+
+}
+.job-context{
+    height: 150px;
+    background-color: white;
+}
+.job-img img{
+    width: 100%;
+    height: 150px;
+}
+.job-context span{
+    font-size: 25px;
+    color: red;
+}
+.job-text{
+    width: 60%;
+}
+.job-text p{
+    margin-top: 3px;
+}
+.more-job{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews{
+    width: 100%;
+    height: 500px;
+    background-color: #f4f4f4;
+    margin-bottom: 50px;
+}
+.reviews-text{
+    width: 100%;
+    height: 150px;
+}
+.reviews-text h3{
+    margin-top: 80px;
+    text-align: center;
+    color: gray;
+}
+.reviews-content{
+    width: 60%;
+    height: 350px;
+    margin: 0 auto;
+}
+.reviews-img{
+    width: 20%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.reviews-img img{
+    width: 100%;
+    height: 150px;
+
+    border-radius: 50%;
+}
+.reviews-context{
+    width: 75%;
+    height: 350px;
+    float: right;
+}
+.reviews-context{
+    color: gray;
+}
+.reviews-context .name{
+    color: #ff2424;
+}
+.reviews-context p {
+    color: gray;
+    margin: 0;
+}
+.data{
+    margin-top: 70px;
+}
+.reviews-content{
+    box-shadow: 2px 3px gray;
+    background-color: white;
+}
+.contact{
+    width: 100%;
+    height: 500px;
+    background-color: #222222;
+}
+.contact-text{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #222222;
+}
+.contact-text h3{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-context{
+    width: 93%;
+    height: 300px;
+    border: 1px solid #FF233A;
+    float: right;
+}
+.contact-info{
+    width: 30%;
+    height: 300px;
+    border: 1px solid #FF233A;
+    background-color: white;
+    float: left;
+}
+#google-map{
+    width: 100%;
+    height: 300px;
+    /*float: left;*/
+    background-color: white;
+}
+.compass{
+    width: 80%;
+    /*border: 1px solid green;*/
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.footer-content{
+    width: 85%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.icon i{
+    margin-right: 20px;
+}
+.figur{
+    margin-left: 550px;
+}
+.figur-1, .figur-3{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    transform: rotate(45deg);
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.figur-2{
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    float: left;
+    background-color: red;
+    transform: rotate(45deg);
+}
+.figur-border{
+    float: left;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: 3px;
+    border: 1px solid red;
+}
